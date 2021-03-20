@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(206, 206, 238);
+}
+
+
+/*Container*/
+
+.container {
+    max-width: 1200px;
+    position: relative;
+    bottom: 100px;
+    margin: auto;
+    width: 100%;
+    margin-top: 300px;
+}
+
+
+/*Titulo*/
+
+div.container h1 {
+    text-align: center;
+    color: rgb(25, 41, 128);
+}
+
+
+/*form*/
+
+form {
+    margin: 5% auto;
+}
+
+form input {
+    width: 75%;
+    height: 55px;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 6px;
+    border: 1px solid;
+    display: block;
+    margin: 1% auto auto auto;
+}
+
+form input:last-child {
+    background-color: rgb(91, 163, 91);
+    font-weight: bold;
+    cursor: pointer;
+    color: rgb(25, 41, 128);
+}
+
+form input:last-child:hover {
+    background-color: rgb(37, 122, 37);
+}
+
+
+/*links*/
+
+.links {
+    width: 75%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links a {
+    font-size: 22px;
+    text-decoration: none;
+    color: rgb(25, 41, 128);
+}
+
+.links a:hover {
+    color: rgb(4, 3, 71);
+}
+
+
+/*Responsivo*/
+
+@media screen and (max-width:850px) {
+    form input {
+        width: 90%;
+        height: 55px;
+        font-size: 16px;
+    }
+    .links {
+        width: 90%;
+    }
+    .links a {
+        font-size: 18px;
+        text-decoration: none;
+        color: rgb(25, 41, 128);
+    }
+}
