@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: rgb(206, 206, 238);
+    background-color: #E5E5E5;
 }
 
 
@@ -36,7 +36,7 @@ form {
 }
 
 form input {
-    width: 75%;
+    width: 60%;
     height: 55px;
     font-size: 20px;
     padding: 5px;
@@ -44,24 +44,33 @@ form input {
     border: 1px solid;
     display: block;
     margin: 1% auto auto auto;
+    border:none;
+    padding:1%;
+    margin-top: 10px;
+}
+
+form input:focus {
+    outline: none !important;
+    box-shadow: 0 0 5px rgb(25, 41, 128);
 }
 
 form input:last-child {
-    background-color: rgb(91, 163, 91);
+    background-color: rgba(91, 163, 91, 0);
     font-weight: bold;
     cursor: pointer;
     color: rgb(25, 41, 128);
+    border: 1px solid;
 }
 
 form input:last-child:hover {
-    background-color: rgb(37, 122, 37);
+    background-color: rgba(25, 40, 128, 0.103);
 }
 
 
 /*links*/
 
 .links {
-    width: 75%;
+    width: 60%;
     margin: 0px auto;
     display: flex;
     justify-content: space-between;
@@ -82,12 +91,12 @@ form input:last-child:hover {
 
 @media screen and (max-width:850px) {
     form input {
-        width: 90%;
+        width: 85%;
         height: 55px;
         font-size: 16px;
     }
     .links {
-        width: 90%;
+        width: 85%;
     }
     .links a {
         font-size: 18px;
