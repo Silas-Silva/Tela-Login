@@ -1,4 +1,7 @@
 # Tela_Login
  Front-end de tela de login 
 
-![alt](./Front-end/images/01.png)
+![alt](./imagensReadme/login.png)
+![alt](./imagensReadme/criarConta.png)
+![alt](./imagensReadme/recuperarSenha.png)
+
